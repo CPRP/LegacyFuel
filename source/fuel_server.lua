@@ -5,6 +5,6 @@ RegisterNetEvent('fuel:pay', function(price, source)
 	local amount = math.floor(price + 0.5)
 
 	if price > 0 then
-		xPlayer.Functions.RemoveMoney('cash', amount)
+		xPlayer.Functions.RemoveMoney('bank', amount)
 	end
 end)
