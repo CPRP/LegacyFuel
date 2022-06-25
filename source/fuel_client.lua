@@ -4,7 +4,7 @@ local isFueling = false
 local currentFuel = 0.0
 local currentCost = 0.0
 local todaycost = 0
-local currentCash = 0
+local currentCash = 1000
 local fuelSynced = false
 local inBlacklisted = false
 
